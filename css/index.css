@@ -21,7 +21,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -295,16 +295,17 @@ header img{
     width:100%;
     padding:0;
     margin:auto;
+    border:0;
 }
 .imageSection{
 width:100%;
+margin:0;
 }
 .imageSection img{
-    display:block;
-    width:30%%;
-      padding:0;
-    margin-left:auto;
-    margin-right:auto;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin:0;
 
 }
 .bottomSection{
@@ -312,4 +313,9 @@ width:100%;
     display:block;
     padding:0;
     margin:auto;
+    border-bottom:2px solid black;
 }
+.bottomSection div {
+    width:100%;
+    border:0;
+    }
