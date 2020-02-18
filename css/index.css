@@ -275,26 +275,27 @@ header img{
     /* flex-direction:column;
     flex-wrap:nowrap; */
     width:100%;
-    padding:0;
+    /* padding:0; */
     margin:auto;
+
     
     
 }
 .nav a{
-    display:block;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     text-justify:center;
-    ext-align:center;
+    text-align:center;
     border: 2px solid darkgrey;
     height:45px;
-    padding:0;
-    margin:auto;
+    align-content:center;
 
 }
 .topSection {
     display:block;
     width:100%;
-    padding:0;
-    margin:auto;
+     margin:auto;
     border:0;
 }
 .imageSection{
@@ -318,4 +319,5 @@ margin:0;
 .bottomSection div {
     width:100%;
     border:0;
-    }
+    }    
+}                                                                                                                                                                                                                                          
